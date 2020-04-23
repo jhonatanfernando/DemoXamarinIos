@@ -5,6 +5,9 @@ Binding between Xamarin IOS renderer and Xamarin Forms for Master Detail has bee
 In Xamarin Forms: Demo.CustomRenderer.MasterDetailRenderer\
 In Xamarin IOS: Demo.iOS.CustomRenderer.MasterDetailRendererIOS
 
+All event handlers should come from IOS and be available in Xamarin forms pages. This can be done with dependecy injection.
+Also when drag of detail page is happening corners of the page should go round. Detail is also visible in the video below.
+
 Need to develop a design according to following:
 
 [![Watch the video](https://am3pap004files.storage.live.com/y4m6M3bFx4U8FiLkQN1xpgozoiCVG-eyfOaoPTnibseEiN4i6dsWBYzjwBQesAVqmmlaOD_qJuRKwZ_crFaZ7CfriVEJhf4W5k3vmXtTGWUTFwp6NISyWYlnwE7NjqA2Gs2j1VMJCz8k5te5cfM-XJib54eG2PDN9mGmFpdb0aHVHxGyHIbL2lIdRYaUtDCzzZX1PcBtOtNCIMg5veCpFldiQ/infoimg.png?psid=1&width=418&height=619)](https://1drv.ms/v/s!AoFugjv6L8Ka0GzCU6RDv0EMWxsa)
