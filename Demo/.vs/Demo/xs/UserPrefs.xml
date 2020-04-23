@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{8B20068C-8C3C-4D07-94D8-928D54B5E555}|Default">
+  <MonoDevelop.Ide.ItemProperties.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4E917518-27D9-4207-BDAE-55D4346D2865" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo/Pages/ThirdPage.xaml">
+    <Files>
+      <File FileName="Demo/MasterDetail/MasterDetailPageMainMaster.xaml.cs" Line="18" Column="24" />
+      <File FileName="Demo/MasterDetail/MasterDetailPageMainMaster.xaml" />
+      <File FileName="Demo/CustomRenderer/MasterDetailRenderer.cs" />
+      <File FileName="Demo/MasterDetail/MasterDetailPageMain.xaml.cs" />
+      <File FileName="Demo/Pages/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Demo/MasterDetail/MasterDetailPageMain.xaml" Line="1" Column="1" />
+      <File FileName="Demo/Pages/MainPage.xaml" Line="6" Column="9" />
+      <File FileName="Demo/Pages/SecondPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Demo/Pages/SecondPage.xaml" Line="4" Column="14" />
+      <File FileName="Demo/Pages/ThirdPage.xaml" Line="10" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demo" expanded="True">
+            <Node name="Demo" expanded="True">
+              <Node name="CustomRenderer" expanded="True" />
+              <Node name="MasterDetail" expanded="True">
+                <Node name="MasterDetailPageMain.xaml" expanded="True" />
+                <Node name="MasterDetailPageMainMaster.xaml" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="SecondPage.xaml" expanded="True" />
+                <Node name="ThirdPage.xaml" expanded="True" selected="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="Demo.Android" expanded="True" />
+            <Node name="Demo.iOS" expanded="True">
+              <Node name="CustomRenderer" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Demo.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

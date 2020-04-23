@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Demo.MasterDetail.MasterDetailPageMainMaster"
+             BackgroundColor="#2A2E43"
+             Title="Master">
+    <StackLayout>
+        <Grid x:Name="MainGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80*"/>
+                <ColumnDefinition Width="20*"/>
+            </Grid.ColumnDefinitions>
+            <AbsoluteLayout Grid.Column="1" VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+                <Label Text="Info" FontSize="30" TextColor="White" HorizontalOptions="End"  VerticalTextAlignment="Center" AbsoluteLayout.LayoutBounds="0.3, 0.7, 0.5, 0.5" AbsoluteLayout.LayoutFlags="All">
+                </Label>
+            </AbsoluteLayout>
+            <ListView x:Name="MenuItemsListView"
+              Grid.Column="0"
+              SeparatorVisibility="None"
+              BackgroundColor="#2A2E43"
+              VerticalScrollBarVisibility="Never"
+              HasUnevenRows="True"
+              ItemsSource="{Binding MenuItems, Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Margin="10,3,0,3">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="90*" />
+                                    <ColumnDefinition Width="10*" />
+                                </Grid.ColumnDefinitions>
+                                <Frame Padding="10" BorderColor="Transparent" VerticalOptions="Start" BackgroundColor="Black" CornerRadius="10">
+                                    <StackLayout Orientation="Horizontal" Spacing="20" Margin="15,0,0,0">
+                                        <Label VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" TextColor="#ffffff" Text="{Binding Title}" d:Text="{Binding .}" FontSize="18"/>
+                                    </StackLayout>
+                                </Frame>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </StackLayout>
+</ContentPage>
