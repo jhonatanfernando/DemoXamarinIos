@@ -1,29 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/Demo.csproj": {}
+    "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Demo.csproj": {}
   },
   "projects": {
-    "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/Demo.csproj": {
+    "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/Demo.csproj",
+        "projectUniqueName": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/Demo.csproj",
-        "packagesPath": "/Users/rvg/.nuget/packages/",
-        "outputPath": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/obj/",
+        "projectPath": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Demo.csproj",
+        "packagesPath": "/Users/jhonatanfernando/.nuget/packages/",
+        "outputPath": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/rvg/.config/NuGet/NuGet.Config"
+          "/Users/jhonatanfernando/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "http://nuget.uxdivers.com/grial/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

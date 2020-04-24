@@ -8,15 +8,16 @@
              x:Class="Demo.MasterDetail.MasterDetailPageMain"
              xmlns:renderer="clr-namespace:Demo.CustomRenderer"
              xmlns:masterdetail="clr-namespace:Demo.MasterDetail"
+    xmlns:controls="clr-namespace:Demo.Controls"
              xmlns:pages="clr-namespace:Demo.Pages">
     <MasterDetailPage.Master>
         <masterdetail:MasterDetailPageMainMaster x:Name="MasterPage" />
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <NavigationPage>
+        <controls:TransitionNavigationPage>
             <x:Arguments>
                 <pages:MainPage />
             </x:Arguments>
-        </NavigationPage>
+        </controls:TransitionNavigationPage>
     </MasterDetailPage.Detail>
 </renderer:MasterDetailRenderer>

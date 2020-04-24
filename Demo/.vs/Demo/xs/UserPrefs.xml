@@ -1,36 +1,31 @@
 ﻿<Properties StartupConfiguration="{8B20068C-8C3C-4D07-94D8-928D54B5E555}|Default">
-  <MonoDevelop.Ide.ItemProperties.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.4E917518-27D9-4207-BDAE-55D4346D2865" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Demo/Pages/ThirdPage.xaml">
+  <MonoDevelop.Ide.ItemProperties.Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A9425033-C51F-44FA-A164-98351916BA9C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo/MasterDetail/MasterDetailPageMain.xaml">
     <Files>
-      <File FileName="Demo/MasterDetail/MasterDetailPageMainMaster.xaml.cs" Line="18" Column="24" />
-      <File FileName="Demo/MasterDetail/MasterDetailPageMainMaster.xaml" />
-      <File FileName="Demo/CustomRenderer/MasterDetailRenderer.cs" />
-      <File FileName="Demo/MasterDetail/MasterDetailPageMain.xaml.cs" />
-      <File FileName="Demo/Pages/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Demo/MasterDetail/MasterDetailPageMain.xaml" Line="1" Column="1" />
-      <File FileName="Demo/Pages/MainPage.xaml" Line="6" Column="9" />
-      <File FileName="Demo/Pages/SecondPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Demo/Pages/SecondPage.xaml" Line="4" Column="14" />
-      <File FileName="Demo/Pages/ThirdPage.xaml" Line="10" Column="23" />
+      <File FileName="Demo/Pages/MainPage.xaml" Line="20" Column="55" />
+      <File FileName="Demo/Pages/MainPage.xaml.cs" Line="27" Column="18" />
+      <File FileName="Demo/ViewModel/MainViewModel.cs" Line="20" Column="75" />
+      <File FileName="Demo/AppSettings.cs" Line="7" Column="6" />
+      <File FileName="Demo.iOS/CustomRenderer/TransitionNavigationPageRenderer.cs" Line="1" Column="1" />
+      <File FileName="Demo/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Demo/MasterDetail/MasterDetailPageMain.xaml" Line="17" Column="19" />
+      <File FileName="Demo/Controls/TransitionNavigationPage.cs" Line="6" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Demo" expanded="True">
             <Node name="Demo" expanded="True">
-              <Node name="CustomRenderer" expanded="True" />
+              <Node name="Controls" expanded="True" />
               <Node name="MasterDetail" expanded="True">
-                <Node name="MasterDetailPageMain.xaml" expanded="True" />
-                <Node name="MasterDetailPageMainMaster.xaml" expanded="True" />
+                <Node name="MasterDetailPageMain.xaml" selected="True" />
               </Node>
               <Node name="Pages" expanded="True">
                 <Node name="MainPage.xaml" expanded="True" />
-                <Node name="SecondPage.xaml" expanded="True" />
-                <Node name="ThirdPage.xaml" expanded="True" selected="True" />
               </Node>
+              <Node name="ViewModel" expanded="True" />
               <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="Demo.Android" expanded="True" />
             <Node name="Demo.iOS" expanded="True">
               <Node name="CustomRenderer" expanded="True" />
             </Node>
@@ -39,11 +34,13 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Demo.Android FirstBuild="True" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.Demo.Android PreferredExecutionTarget="Android.BXY6R18423000432" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Pages/MainPage.xaml.cs" relfile="Demo/Pages/MainPage.xaml.cs" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

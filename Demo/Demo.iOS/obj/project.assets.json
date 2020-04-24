@@ -977,33 +977,32 @@
     ]
   },
   "packageFolders": {
-    "/Users/rvg/.nuget/packages/": {}
+    "/Users/jhonatanfernando/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo.iOS/Demo.iOS.csproj",
+      "projectUniqueName": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo.iOS/Demo.iOS.csproj",
       "projectName": "Demo.iOS",
-      "projectPath": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo.iOS/Demo.iOS.csproj",
-      "packagesPath": "/Users/rvg/.nuget/packages/",
-      "outputPath": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo.iOS/obj/",
+      "projectPath": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo.iOS/Demo.iOS.csproj",
+      "packagesPath": "/Users/jhonatanfernando/.nuget/packages/",
+      "outputPath": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/rvg/.config/NuGet/NuGet.Config"
+        "/Users/jhonatanfernando/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "http://nuget.uxdivers.com/grial/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/Demo.csproj": {
-              "projectPath": "/Users/rvg/Desktop/Dev/Dev/Demo/Demo/Demo.csproj"
+            "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Demo.csproj": {
+              "projectPath": "/Users/jhonatanfernando/Projects/DemoXamarinIos/Demo/Demo/Demo.csproj"
             }
           }
         }

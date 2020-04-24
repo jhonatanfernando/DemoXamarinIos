@@ -3,10 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Demo.Pages.MainPage">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Button HorizontalOptions="EndAndExpand" Text="This button should also open a drawer" BackgroundColor="Blue" TextColor="Black" />
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <Button HorizontalOptions="EndAndExpand" Text="This button should also open a drawer"
+                        BackgroundColor="Blue" TextColor="Black" />
+
+
+                <Button
+                    Text="Fade"
+                    Command="{Binding FadeCommand}"/>
+                <Button
+                    Text="Flip"
+                    Command="{Binding FlipCommand}"/>
+                <Button
+                    Text="Scale"
+                    Command="{Binding ScaleCommand}"/>
+                <Button
+                    Text="SlideFromLeft"
+                    Command="{Binding SlideFromLeftCommand}"/>
+                <Button
+                    Text="SlideFromRight"
+                    Command="{Binding SlideFromRightCommand}"/>
+                <Button 
+                    Text="SlideFromTop"
+                    Command="{Binding SlideFromTopCommand}"/>
+                <Button 
+                    Text="SlideFromBottom"
+                    Command="{Binding SlideFromBottomCommand}"/>
+
             </StackLayout>
-        </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

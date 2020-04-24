@@ -18,6 +18,8 @@
     <Folder Include="MasterDetail\" />
     <Folder Include="Pages\" />
     <Folder Include="CustomRenderer\" />
+    <Folder Include="Controls\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="MasterDetail\MasterDetailPageMainDetail.xaml" />
